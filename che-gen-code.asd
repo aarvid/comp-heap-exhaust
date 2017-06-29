@@ -4,7 +4,7 @@
 
 ;;;; che-gen-code.asd
 
-(asdf:defsystem #:che-gen-code
+(asdf:defsystem "che-gen-code"
   :serial t
   :description "Generates test file for comp-heap-exhaust"
   :author "Andy Peterson <andy.arvid@gmail.com>"
