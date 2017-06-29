@@ -4,12 +4,12 @@
 
 ;;;; comp-heap-exhaust.asd
 
-(asdf:defsystem #:comp-heap-exhaust
+(asdf:defsystem "comp-heap-exhaust"
   :serial t
   :description "Demonstrates bug in compile of SBCL"
   :author "Andy Peterson <andy.arvid@gmail.com>"
   :license "BSD-2"
-  :depends-on (:alexandria)
+  :depends-on ("alexandria")
   :components ((:file "package")
                (:file "macros")
                (:file "deftests")))
